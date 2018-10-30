@@ -1,0 +1,12 @@
+{
+    "subject": "een afspraak in de agenda",
+    "location": "zwembad", 
+    "timeFrom": "11:15",
+    "timeTo": "11:45",
+    "reminderTime": "00:15",
+    "isAllDay": false,
+    "description": "omschrijving", 
+     "dates": [
+         "2018-03-11", "2018-03-18"
+     ]
+}

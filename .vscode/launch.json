@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch node-client",
+            "program": "${workspaceFolder}/node-client/dist/node-client/main.js",
+            "args": [
+                "-i",
+                "${workspaceFolder}/node-client/example.json",
+                "-o",
+                "${workspaceFolder}/node-client/output.ical"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/node-client/**/*.js"
+            ]
+        }
+    ]
+}
